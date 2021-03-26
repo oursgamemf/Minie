@@ -181,7 +181,7 @@ to a small value (such as zero):
 
 [source,java]
 ----
-PhysicsSoftBody.Material softMaterial = softBody.getSoftMaterial();
+SoftBodyMaterial softMaterial = softBody.getSoftMaterial();
 softMaterial.setAngularStiffness(0f); // default=1
 ----
 
